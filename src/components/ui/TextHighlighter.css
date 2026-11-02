@@ -1,0 +1,43 @@
+/* Animaciones para los highlight effects */
+@keyframes orange-underline {
+  0% {
+    background-position: 0% 50%;
+    opacity: 0;
+  }
+  100% {
+    background-position: 200% 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes blue-marker {
+  0% {
+    background-position: 0% 50%;
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    background-position: 200% 50%;
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* Clases utility - these are applied via the className prop */
+.highlight-blue {
+  background:
+    linear-gradient(135deg, transparent 49%, blue 50%),
+    linear-gradient(135deg, blue 50%, transparent 51%);
+  background-size: 200% 2px;
+  background-position: 0% 50%;
+  animation: blue-marker 1s ease-out forwards;
+}
+
+.highlight-orange {
+  background:
+    linear-gradient(135deg, transparent 49%, orange 50%),
+    linear-gradient(135deg, orange 50%, transparent 51%);
+  background-size: 200% 2px;
+  background-position: 0% 50%;
+  animation: orange-underline 1s ease-out forwards;
+}

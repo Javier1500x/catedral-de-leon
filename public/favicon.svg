@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#0a0805"/>
+  <!-- Cathedral silhouette simplified -->
+  <polygon points="16,3 13,9 13,14 11,14 11,29 21,29 21,14 19,14 19,9" fill="#c9a84c"/>
+  <polygon points="10,12 8,12 8,29 10,29" fill="#c9a84c"/>
+  <polygon points="22,12 24,12 24,29 22,29" fill="#c9a84c"/>
+  <rect x="13" y="5" width="6" height="1" fill="#e8c97a"/>
+</svg>

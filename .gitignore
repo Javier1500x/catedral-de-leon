@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+
+# Archivos de Blender (solo para desarrollo)
+*.blend
+*.blend1
+*.blend2
+
+# Archivos de build temporales
+dist/
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Editor
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scripts de inspección
+.inspect-new-glb.mjs
